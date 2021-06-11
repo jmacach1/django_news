@@ -5,9 +5,19 @@
 {% block content %} 
 
   {% if user.is_authenticated %}
+  <br/>
+  <div class="jumbrotron">
+    <h1 class="display-4">Newspaper App</h1>
+    <p class="lead">A newspaper website built with Django.</p>
+    <p class="lead">
+      <a href="{% url 'article_list' %}" class="btn btn-primary btn-lg" role="button">
+        View All Articles
+      </a>
+    </p>
+  </div>
   
-    <h2>Hi {{ user.username }}!</h2>
-    <p><a href="{% url 'logout' %}">Sign Up</a></p>
+    <!-- <h2>Hi {{ user.username }}!</h2>
+    <p><a href="{% url 'logout' %}">Log Out</a></p>
   
     {% else %}
     
@@ -15,5 +25,5 @@
     <p><a href="{% url 'login' %}">Log In</a></p>
     <p><a href="{% url 'signup' %}">Sign Up</a></p>
 
-  {% endif %}
+  {% endif %} -->
 {% endblock content %}

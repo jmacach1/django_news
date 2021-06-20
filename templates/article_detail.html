@@ -3,6 +3,8 @@
 {% block title %} Article Detail {% endblock title %}
 
 {% block content %}
+
+<div class="main_nom">
   <div class="article-entry">
     <h2>{{ article.title }}</h2>
     <p>by {{ article.author }} </p>
@@ -15,4 +17,6 @@
   <p>
     Back to <a href="{% url 'article_list' %}"></a>
   </p>
+</div>
+
 {% endblock content %}

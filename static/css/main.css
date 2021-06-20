@@ -1,0 +1,96 @@
+/* dark-orange #F58A07  rgb(245, 138, 7)  */
+/* rajah #F9AB55 */
+/* ghost-white #F7F5FB */
+/* yale-blue #084887 */
+/* wild-blue-yonder #909CC2 */
+
+a {
+  color: #F7F5FB;
+}
+
+.body {
+  height: 100vh;
+  background-image: url("/static/images/FoodAndDrinkDesign.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  background-color: rgb(245, 138, 7);
+}
+
+.main {
+  margin-top: 2rem;
+  padding: 0;
+  border: 4px solid rgb(70, 70, 70);
+  border-radius: 25px;
+  -webkit-box-shadow: 5px 5px 10px 5px #084887; 
+  box-shadow: 5px 5px 10px 5px #084887;
+  overflow: hidden;
+}
+
+.main_nom {
+  background-color: rgb(249, 171, 85, .95);
+  padding: 2rem;
+}
+
+
+
+a.home_button,
+.btn-nom {
+  margin: .5rem;
+  padding: .25rem .5rem;
+  border-radius: 8px;
+  color: #F7F5FB;
+  font-weight: bold;
+  background-color: rgb(245, 138, 7);
+  -webkit-box-shadow: 1px 1px 1px 2px #F7F5FB; 
+  box-shadow: 1px 1px 1px 2px #F7F5FB;
+}
+
+a.home_button:hover,
+.btn-nom:hover {
+  color: black;
+  background-color: #F9AB55;
+  font-size: 1.1rem;
+  -webkit-box-shadow: 1px 1px 3px 2px #084887; 
+  box-shadow: 1px 1px 3px 2px #084887;
+}
+
+a.home_button {
+  font-size: 1.2rem;
+}
+
+.home_auth {
+  padding: 2rem;
+  background:rgb(245, 138, 7);
+}
+
+.jumbrotron {
+  padding: 2rem;
+  color: #F7F5FB;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-image: url("https://live.staticflickr.com/3507/3997868305_89c36263fa_b.jpg"),
+  linear-gradient( #909CC2, #084887);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbrotron .lead {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.article_list {
+  background-color: rgb(245, 138, 7);
+}
+
+.card_nom {
+  background-color: rgb(249, 171, 85, .95);
+  -webkit-box-shadow: 1px 1px 2px 2px #084887; 
+  box-shadow: 1px 1px 2px 2px #084887;
+  overflow: hidden;
+}

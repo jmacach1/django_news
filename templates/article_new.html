@@ -4,10 +4,14 @@
 {% block title %} Create New Article {% endblock title %}
 
 {% block content %}
+
+<div class="main_nom">
   <h1>Create Article</h1>
   <form method="POST">
     {% csrf_token %}
     {{ form.as_p }}
     <input type="submit" value="Create Article">
   </form>
+</div>
+
 {% endblock content %}
